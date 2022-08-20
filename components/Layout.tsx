@@ -35,6 +35,10 @@ const Layout: React.FC<Props> = (props) => (
         font-size: 16px;
       }
 
+      input[type='submit']:hover {
+        cursor: pointer;
+      }
+
       button {
         cursor: pointer;
       }
